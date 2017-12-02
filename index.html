@@ -1,32 +1,105 @@
-<DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>Trivia Game</title>
-	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
-	    	
-	    </script>
+  <meta charset="UTF-8">
+  <title>Trivia Game</title>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+        </script>
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-</head>
-<style> .area{
-    position:absolute;
-   
+<style> #timer{
+  color: black;
+};
+   }
+   #button2{
+    color: red;
+   }
+   #text{
     color: white;
+   }
+   #correct1{
+    color: white;
+   }
+   #incorrect1{
+    color: white;
+   }
 
-}
-.area2{
-	color: white;
-}
 </style>
-<body background="https://orig00.deviantart.net/9f7f/f/2016/062/5/0/highlord_darion_mograine_by_sljix-d9trigk.jpg">
 
-<p class="area2"></p> 
+</head>
+<body background="https://i.pinimg.com/originals/79/5f/0d/795f0d222fe4ab29226d9f1e6bdd350d.jpg">
+  
 
+<div id="timer">
+<button id="button1" type="button">Thumbs up? Lets do This!</button>
+</div>
 
+<div id="text" style="display: none;">
+<p>
+<h1>What Game has given us the best meme of all time in Leeroy Jenkins?</h1>
+<br>
+<div id="a"> 
 
-    <button class="area" type="button">Start</button>
+A. World Of Warcraft <input type="radio" name="answers" id="a1" value="a1"/> <br>
+B. Runescape <input type="radio" name="answers" id="a2" value="a1" /> <br>
+C. Eve Online <input type="radio" name="answers" id="a3" value="a1"/> <br>
+D. Adventure Quest <input type="radio" name="answers" id="a4" value="a1"/> <br>
+
+</div>
+<br>
+What class was Leeroy Jenkins?
+<br>
+<div id="b"> 
+
+A. Warrior <input type="radio" name="answers2" id="b1" value="a2"/> <br>
+B. Rogue <input type="radio" name="answers2" id="b2" value="a2"/> <br>
+C. Druid <input type="radio" name="answers2" id="b3" value="a2"/> <br>
+D. Paladin <input type="radio" name="answers2" id="b4" value="a2"/> <br>
+
+</div>
+<br>
+What Raid did he charge into with no regard for his own safety?
+<br>
+<div id="c"> 
+
+A. Twilight's Hammer <input type="radio" name="answers3" id="c1" value="a3"/> <br>
+B. IceCrown Citadel <input type="radio" name="answers3" id="c2" value="a3"/> <br>
+C. BlackWing Descent<input type="radio" name="answers3" id="c3" value="a3"/> <br>
+D. Molten Core <input type="radio" name="answers3" id="c4" value="a3"/> <br>
+<br>
+</div>
+What were Leeroy's final words as he took his last breath?
+<br>
+<div id="d"> 
+
+A. Tell my son he's not mine <input type="radio" name="answers4" id="d1" value="a4"/> <br>
+B. At Least I Have Chicken <input type="radio" name="answers4" id="d2" value="a4"/> <br>
+C. Godamnit Leeroy <input type="radio" name="answers4" id="d3" value="a4"/> <br>
+D. My Loot <input type="radio" name="answers4" id="d4" value="a4"/> <br>
+
+</div>
+</p>
+</div>
+
+<div id="submit" style="display: none;">
+  <button id="button2" type="button">submit</button>
+</div>
+<div id="correct1">
+</div>
+<div id="incorrect1">
+</div>
+<button id="reset" style="display: none;">Reset</button>
+<div id="leeroy" style="display: none;">
+
+  <img src="http://i0.kym-cdn.com/entries/icons/mobile/000/000/191/leeroy-jenkins.jpg">
+</div>
+</wrapper>
+<script type="text/javascript" src="app.js"></script> 
+</body>
+</html>
+
+    
 
 
       
